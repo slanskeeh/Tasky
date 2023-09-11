@@ -1,2 +1,14 @@
-.app {
+.main {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  height: 100vh;
+  padding: 16px;
+}
+
+.page {
+  display: block;
+  height: 100%;
+  background-color: #292e2e;
+  border-radius: 8px;
 }

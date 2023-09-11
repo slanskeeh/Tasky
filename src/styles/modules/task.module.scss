@@ -1,2 +1,51 @@
 .task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px;
+
+  &__title {
+    &__wrapper {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+    }
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  &__checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border: 3px solid #4e5252;
+    border-radius: 8px;
+    background-color: #3c4141;
+  }
+
+  &__difficulty {
+    &__wrapper {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+    }
+    &__text {
+      color: #4e5252;
+      font-size: 16px;
+      font-weight: 400;
+    }
+    &__dots {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      &__dot {
+        display: block;
+        width: 8px;
+        height: 8px;
+        border-radius: 100%;
+      }
+    }
+  }
 }
